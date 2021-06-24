@@ -1,6 +1,4 @@
-import firebase from "firebase/app";
 import React from "react";
-import { Link } from "react-router-dom";
 import { Waitlist } from "waitlistapi";
 
 import Header from "../partials/Header";
@@ -30,7 +28,6 @@ function SignUp() {
                     waitlist_link="http://onekyc.io"
                   />
                   <style jsx>
-                    <h1 color="#000000"></h1>
                     <div classname=".container--waitlistapi margin: 0 auto background-color: #ffffff"></div>
                     <div classname=".button--waitlistapi background-color: #0070F4"></div>
                     <div classname=".statusTextContainer--waitlistapi color: #000000"></div>
