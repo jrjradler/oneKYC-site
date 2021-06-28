@@ -5,16 +5,31 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
+    <meta name="description" content="Never fill in KYC again." />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--FACEBOOK-->
+    <meta property="og:image" content="/src/images/Facebook.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://oneKYC.io/" />
+    <meta property="og:title" content="oneKYC" />
+    <meta
+      property="og:description"
+      content="oneKYC auto-completes KYC for you on any platform, saving you hours on identity verification."
+    />
+    <!--Twitter-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:domain" value="oneKYC.io" />
+    <meta name="twitter:title" value="oneKYC.io" />
+    <meta name="twitter:description" value="oneKYC auto-completes KYC for you on any platform, saving you hours on identity verification."
+    />
+    <meta name="twitter:image" content="/src/images/Facebook.png" />
+    <meta name="twitter:url" value="https://onekyc.io/" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -40,27 +55,27 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
+    <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
 
-<script>
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  var firebaseConfig = {
-    apiKey: "AIzaSyAMizSNQz7M57pfoZ9b2RRgbtedadpMsd0",
-    authDomain: "onekyc-46c3b.firebaseapp.com",
-    projectId: "onekyc-46c3b",
-    storageBucket: "onekyc-46c3b.appspot.com",
-    messagingSenderId: "317719230339",
-    appId: "1:317719230339:web:825a9990087be58a8f28b6",
-    measurementId: "G-ND881G85Y4"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-</script>
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyAMizSNQz7M57pfoZ9b2RRgbtedadpMsd0",
+        authDomain: "onekyc-46c3b.firebaseapp.com",
+        projectId: "onekyc-46c3b",
+        storageBucket: "onekyc-46c3b.appspot.com",
+        messagingSenderId: "317719230339",
+        appId: "1:317719230339:web:825a9990087be58a8f28b6",
+        measurementId: "G-ND881G85Y4",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
   </body>
 </html>
