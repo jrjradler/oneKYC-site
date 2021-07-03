@@ -17,7 +17,7 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
-        <FeaturesHome />
+       {/* <FeaturesHome /> (add for full website) */} 
 
       </main>
 
