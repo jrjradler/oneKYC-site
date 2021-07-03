@@ -39,15 +39,14 @@ function HeroHome() {
                 <div>
                   <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="/signup">Request Access</a>
                 </div>
-                {/* Learn more button 
                 <div>
                   <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>
 
-          {/* Hero image (add when adding image)
+          {/* Hero image */}
           <div>
             <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
               <div className="flex flex-col justify-center">
@@ -78,7 +77,14 @@ function HeroHome() {
 
             </div>
 
-          </div> */}
+            {/* Modal */}
+            <Modal id="modal" ariaLabel="modal-headline" show={videoModalOpen} handleClose={() => setVideoModalOpen(false)}>
+              <div className="relative pb-9/16">
+                <iframe className="absolute w-full h-full" src="https://player.vimeo.com/video/174002812" title="Video" allowFullScreen></iframe>
+              </div>
+            </Modal>
+
+          </div>
 
         </div>
 
